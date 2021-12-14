@@ -1,0 +1,59 @@
+.container {
+    background: black;
+    border-bottom: 5px red solid;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+    /* inherit kalıtım aktarımı yapıyor */
+}
+.main {
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    font-family: "Audiowide", sans-serif;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .main-header{
+    justify-content: center;
+} */
+.span-1{
+    color: red;
+    font-weight: 900;
+}
+.header-left {
+    margin-left: 140px;
+    font-weight:900;
+    font-size: 32px;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+.header-rigth {
+    color:white;
+    margin-right: 140px;
+    font-family: "Audiowide", sans-serif;
+    font-weight:900;
+    font-size: 32px;
+}
+.main h1 {
+    font-size: 32px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.main p {
+    margin: 32px 400px;
+}
